@@ -1,7 +1,7 @@
 import { by, element, browser } from 'protractor';
 import 'jasmine';
 
-xdescribe('angularjs homepage todo list', function() {
+describe('angularjs homepage todo list', function() {
     it('should add a todo', function() {
         browser.get('https://angularjs.org');
 
