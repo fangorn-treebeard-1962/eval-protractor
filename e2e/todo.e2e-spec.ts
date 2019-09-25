@@ -2,7 +2,7 @@ import { by, element, browser } from 'protractor';
 import 'jasmine';
 
 xdescribe('angularjs homepage todo list', function() {
-    it('should add a todo', function() {
+    it('should add a todo and complete it', function() {
         browser.get('https://angularjs.org');
 
         element(by.model('todoList.todoText')).sendKeys('write 1st protractor test');
