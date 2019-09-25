@@ -15,10 +15,12 @@ The following activities consider increasing levels of protractor knowledge.
 
 There is currently one test file.
 1. Describe the URL being tested and the logic of the test.
-1. Change it to cause the "should add a todo and complete it" case to run.
+1. Change the test file to cause the "should add a todo and complete it" case to run.
 1. Change the "should add a todo and complete it" case to pass.
 1. Correct the "should add a todo and complete it" case.  
 *HINT*: Is your new "Todo" crossed off?
+1. Add a new test to the suite.  It should confirm that the text displaying the number of remaining items (i.e. "1 of 2 remaining")
+correctly updates as items are added, marked complete, or marked incomplete.
 1. Refactor the test file to make it more maintainable. 
 
 1. Add a second test suite for same URL, but to test the "_The Basics_" section of the page. 
